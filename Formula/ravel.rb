@@ -1,26 +1,26 @@
 class Ravel < Formula
   desc "Generate evidence-backed SBOMs from projects and container images"
   homepage "https://github.com/Pirikara/Ravel"
-  version "0.1.1"
+  version "0.1.2"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Pirikara/Ravel/releases/download/v0.1.1/ravel_v0.1.1_darwin_arm64.tar.gz"
-      sha256 "cb5814e1eff9ff9205aee2c4093daada7a6ee13285b03a24f15ef6afd808a96f"
+      url "https://github.com/Pirikara/Ravel/releases/download/v0.1.2/ravel_v0.1.2_darwin_arm64.tar.gz"
+      sha256 "dd08a4d1dbd70b38fee8dd757120d9b8280e3e7bbf103ac0ef36b808108bc9e2"
     else
-      url "https://github.com/Pirikara/Ravel/releases/download/v0.1.1/ravel_v0.1.1_darwin_amd64.tar.gz"
-      sha256 "bdb2c25d3850beb0c575ecc83b46b2c619d574f79b7daa8e852202d64418e6e3"
+      url "https://github.com/Pirikara/Ravel/releases/download/v0.1.2/ravel_v0.1.2_darwin_amd64.tar.gz"
+      sha256 "88f280ffe3aefbe1b605884402c4458007fc599be2c9f1ef5ce81744cbd48998"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/Pirikara/Ravel/releases/download/v0.1.1/ravel_v0.1.1_linux_arm64.tar.gz"
-      sha256 "8520b6acb4e8cbe0eba6f66a3abd31e19113432ac04f658772067340fd4c0f49"
+      url "https://github.com/Pirikara/Ravel/releases/download/v0.1.2/ravel_v0.1.2_linux_arm64.tar.gz"
+      sha256 "ee0a542ca8b1616a303bfa4e874b26369dc85f53ef138241ba3f4836b8395926"
     else
-      url "https://github.com/Pirikara/Ravel/releases/download/v0.1.1/ravel_v0.1.1_linux_amd64.tar.gz"
-      sha256 "d1572afc8a1f4af5af03ab4de4199f3c444e5d4e426ff169b3ebd69369e8d516"
+      url "https://github.com/Pirikara/Ravel/releases/download/v0.1.2/ravel_v0.1.2_linux_amd64.tar.gz"
+      sha256 "745c7245b80817e9cd80747964f49ce51ed48a2f28c21cc1d2a66e937d2eca9c"
     end
   end
 
